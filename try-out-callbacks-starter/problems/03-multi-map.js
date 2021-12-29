@@ -25,7 +25,7 @@ let multiMap = function(val, n, cb) {
 
   for ( let i = 0; i < n; i++){
 
-    let val = cb(val)
+    let val = cb(val) // im assuming that we are calling back val again
   }
 return val;
 };
